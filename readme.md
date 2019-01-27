@@ -44,7 +44,7 @@
 注意：在defaultConfig里面需要配置一个  flavorDimensions "versionCode" 属性，否则 Sync 会出错。
 
 2. 当选择了某一个渠道后，运行打包时会根据渠道名选择资源文件。可以在这里做不同渠道下资源文件的替换。
-
+![根据渠道名选择资源文件](https://github.com/liuhuan2015/androidprojectoneformore/blob/master/images/2-2-%E6%A0%B9%E6%8D%AE%E6%B8%A0%E9%81%93%E5%90%8D%E9%80%89%E6%8B%A9%E8%B5%84%E6%BA%90%E6%96%87%E4%BB%B6.png)
 
 3. 签名可在signingConfigs中配置多个（我将所有的签名文件放在了项目根目录的key文件夹中），
 可通过signingConfigs指定预先设置好的签名配置
